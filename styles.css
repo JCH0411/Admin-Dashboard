@@ -20,7 +20,7 @@ body {
   grid-row: 1/3;
   border: solid 1px black;
   background-color: #0EA5E9;
-  padding: 10px 0 0 35px;
+  padding: 20px 0 0 35px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto auto 1fr;
@@ -32,6 +32,7 @@ body {
 .side-top {
   grid-column: 1/2;
   display: flex;
+  align-items: center;
 }
 
 .side-top-p {
@@ -71,7 +72,7 @@ body {
   grid-column: 2/3;
   grid-row: 1/2;
   border: solid 1px red;
-  padding: 0 40px;
+  padding: 10px 20px;
   font-family: 'Roboto', sans-serif;
   font-weight: bolder;
 }
@@ -79,11 +80,12 @@ body {
 .head-top {
   display: flex;
   align-items: center;
+  justify-content: space-around;
 
 }
 
 .head-search {
-  width: 40%;
+  width: 80%;
   border-radius: 10px;
   background-color: lightgrey;
   border: solid lightgrey 1px;
@@ -93,14 +95,24 @@ body {
 .search-img {
   margin-right: 15px;
 }
-
+.head-top-left{
+  display: flex;
+  align-items: center;
+  width: 50%;
+  padding-top: 5px;
+}
 .head-top-right {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  width: 60%;
-  margin-left: 30px;
+  width: 50%;
   font-size: 1.2rem;
+}
+.top-right{
+  margin-left: 20px;
+}
+div .head-profile-pic{
+  margin-left: 29px;
 }
 
 .notifications {
