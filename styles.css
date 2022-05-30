@@ -133,6 +133,7 @@ body {
 .tr-animate:hover {
   transform: translateX(-3px) translateY(-2px);
   cursor: pointer;
+  color:#0EA5E9;
 }
 
 .top-right {
